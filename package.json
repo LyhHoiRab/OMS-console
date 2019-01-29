@@ -1,0 +1,27 @@
+{
+  "name": "oms-console",
+  "version": "1.0.0",
+  "description": "oms-console",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://LyhHoiRab@github.com/LyhHoiRab/OMS-console.git"
+  },
+  "author": "LyhHoiWah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyhHoiRab/OMS-console/issues"
+  },
+  "homepage": "https://github.com/LyhHoiRab/OMS-console#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.5.2",
+    "vue": "^2.5.22",
+    "vue-router": "^3.0.2"
+  }
+}
