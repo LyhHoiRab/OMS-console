@@ -1,0 +1,81 @@
+/**
+  customer style
+**/
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg.svg-inline--fa {
+  margin-right: 5px;
+}
+
+/** search bar **/
+.search-bar {
+  padding: 20px 15px;
+}
+
+.search-bar .el-col {
+  padding: 10px;
+}
+
+.search-bar .el-input.is-active .el-input__inner, 
+.search-bar .el-input__inner:focus,
+.search-bar .el-input__inner:hover,
+.search-bar .el-range-editor.is-active, 
+.search-bar .el-range-editor.is-active:hover,
+.search-bar .el-select .el-input.is-focus .el-input__inner,
+.search-bar .el-select:focus,
+.search-bar .el-button.is-plain:focus, 
+.search-bar .el-button.is-plain:hover {
+  border-color: #dcdfe6;
+}
+
+.search-bar .el-select,
+.search-bar .el-date-editor {
+  width: 100%;
+}
+
+.search-bar .el-button:focus,
+.search-bar .el-button:hover,
+.search-bar .el-button:active {
+  color: #606266;
+}
+
+/** 
+  vue style reset 
+**/
+/** breadcrumb **/
+.el-breadcrumb {
+  padding: 25px 20px;
+  background: #f6f8f8;
+  border-bottom: 1px solid #dee5e7;
+}
+
+/** pagination **/
+.el-pagination {
+  margin: 15px;
+  padding: 0;
+  text-align: right;
+}
+
+.el-select .el-input.is-focus .el-input__inner,
+.el-pagination__sizes .el-input .el-input__inner:hover {
+  border-color: #c0c4cc;
+}
+
+/** table **/
+.el-table--border {
+  border-left: none;
+}
+
+.el-table th > .cell {
+  font-weight: normal;
+}

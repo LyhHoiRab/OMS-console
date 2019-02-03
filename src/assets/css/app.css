@@ -1,0 +1,25 @@
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.el-container {
+  height: 100%;
+}
+
+/** aside **/
+.el-aside .el-menu {
+  height: 100%;
+}
+
+/** main **/
+.el-main {
+  padding: 0;
+}
+
+/** header **/
+.el-header {
+          box-shadow: 0 2px 2px rgba(0, 0, 0, .05), 0 1px 0 rgba(0, 0, 0, .05);
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .05), 0 1px 0 rgba(0, 0, 0, .05);
+  z-index: 999;
+}
