@@ -17,10 +17,43 @@
             </el-menu-item-group>
           </el-submenu><!-- submenu -->
 
-          <el-menu-item index='/'>
-            <i class='el-icon-message'></i>
-            导航二
-          </el-menu-item>
+          <el-submenu index='2'>
+            <template slot='title'>
+              <font-awesome-icon :icon='["fas", "street-view"]'/>
+              人员管理
+            </template><!-- title -->  
+
+            <el-menu-item-group>
+              <el-menu-item index='/sales'>
+                <font-awesome-icon :icon='["fas", "user"]'/>
+                销售管理
+              </el-menu-item>
+
+              <el-menu-item index='/wechat'>
+                <font-awesome-icon :icon='["fab", "weixin"]'/>
+                微信号管理
+              </el-menu-item>
+            </el-menu-item-group>
+          </el-submenu><!-- submenu -->
+
+          <el-submenu index='3'>
+            <template slot='title'>
+              <font-awesome-icon :icon='["fas", "street-view"]'/>
+              系统管理
+            </template><!-- title -->  
+
+            <el-menu-item-group>
+              <el-menu-item index='/role'>
+                <font-awesome-icon :icon='["fas", "user"]'/>
+                角色管理
+              </el-menu-item>
+
+              <el-menu-item index='/function'>
+                <font-awesome-icon :icon='["fas", "user"]'/>
+                权限管理
+              </el-menu-item>
+            </el-menu-item-group>
+          </el-submenu><!-- submenu -->
         </el-menu>
       </el-aside><!-- aside -->
 

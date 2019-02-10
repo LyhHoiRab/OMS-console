@@ -7,6 +7,14 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-family: "Helvetica Neue", 
+               Helvetica, 
+               "PingFang SC", 
+               "Hiragino Sans GB", 
+               "Microsoft YaHei",
+               "微软雅黑",
+               Arial,
+               sans-serif;
 }
 
 a {
@@ -24,6 +32,11 @@ svg.svg-inline--fa {
 
 .search-bar .el-col {
   padding: 10px;
+}
+
+.search-bar .el-col .el-button:not(:first-child),
+.search-bar .el-col .upload:not(:first-child) {
+  margin-left: 10px;
 }
 
 .search-bar .el-input.is-active .el-input__inner, 
@@ -49,6 +62,55 @@ svg.svg-inline--fa {
   color: #606266;
 }
 
+.search-bar .upload {
+  display: inline;
+}
+
+/** info **/
+.info {
+  padding: 20px 15px;
+}
+
+.info .el-col {
+  padding: 10px;
+}
+
+.info .el-row:not(:last-child){
+  border-bottom: 1px solid #dcdfe6;
+}
+
+.info .el-input-number {
+  width: 100%;
+}
+
+.info .el-input.is-active .el-input__inner, 
+.info .el-input__inner:focus,
+.info .el-input__inner:hover,
+.info .el-range-editor.is-active, 
+.info .el-range-editor.is-active:hover,
+.info .el-select .el-input.is-focus .el-input__inner,
+.info .el-select:focus,
+.info .el-button.is-plain:focus, 
+.info .el-button.is-plain:hover {
+  border-color: #dcdfe6;
+}
+
+.info .el-select,
+.info .el-date-editor {
+  width: 100%;
+}
+
+.info .el-upload--picture-card {
+  font-size: 13px;
+  color: #606266;
+}
+
+.info .el-button:focus,
+.info .el-button:hover,
+.info .el-button:active {
+  color: #606266;
+}
+
 /** 
   vue style reset 
 **/
@@ -57,6 +119,11 @@ svg.svg-inline--fa {
   padding: 25px 20px;
   background: #f6f8f8;
   border-bottom: 1px solid #dee5e7;
+}
+
+.el-breadcrumb__inner.is-link {
+  font-weight: 400;
+  color: #606266;
 }
 
 /** pagination **/
@@ -78,4 +145,29 @@ svg.svg-inline--fa {
 
 .el-table th > .cell {
   font-weight: normal;
+}
+
+.el-table button.el-popover__reference {
+  margin-left: 10px;
+}
+
+.el-table img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+/** input **/
+.el-input__inner:focus {
+  border-color: #dcdfe6;
+}
+
+.el-input-number__decrease:hover:not(.is-disabled) ~ .el-input .el-input__inner:not(.is-disabled), 
+.el-input-number__increase:hover:not(.is-disabled) ~ .el-input .el-input__inner:not(.is-disabled) {
+  border-color: #dcdfe6;
+}
+
+.el-input-number__decrease:hover, 
+.el-input-number__increase:hover {
+  color: #606266;
 }
