@@ -33,6 +33,11 @@
                 <font-awesome-icon :icon='["fab", "weixin"]'/>
                 微信号管理
               </el-menu-item>
+
+              <el-menu-item index='/payment'>
+                <font-awesome-icon :icon='["fab", "weixin"]'/>
+                支付方式管理
+              </el-menu-item>
             </el-menu-item-group>
           </el-submenu><!-- submenu -->
 

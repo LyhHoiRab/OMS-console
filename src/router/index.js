@@ -7,6 +7,8 @@ import Wechat      from '@/components/Wechat'
 import WechatEdit  from '@/components/WechatEdit'
 import Sales       from '@/components/Sales'
 import SalesEdit   from '@/components/SalesEdit'
+import Payment     from '@/components/Payment'
+import PaymentEdit from '@/components/PaymentEdit'
 import Role        from '@/components/Role'
 import Function    from '@/components/Function'
 
@@ -40,6 +42,15 @@ export default new Router({
   },{
     path       : '/sales/:accountId',
     component  : SalesEdit,
+  },{
+    path       : '/payment',
+    component  : Payment,
+  },{
+    path       : '/payment/add',
+    component  : PaymentEdit,
+  },{
+    path       : '/payment/:id',
+    component  : PaymentEdit,
   },{
     path       : '/role',
     component  : Role,

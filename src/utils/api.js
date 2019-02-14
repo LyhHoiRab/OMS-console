@@ -41,3 +41,9 @@ export const RolePageList = host + '/api/1.0/role/page';
 
 //功能模块
 export const FunctionPageList = host + '/api/1.0/function/page';
+
+//支付方式模块
+export const PaymentPageList = host + '/api/1.0/payment/page';
+export const PaymentGetById  = host + '/api/1.0/payment/{id}';
+export const PaymentSave     = host + '/api/1.0/payment';
+export const PaymentUpdate   = host + '/api/1.0/payment';
